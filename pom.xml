@@ -13,14 +13,13 @@
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
-  
-  
-  
-  <distributionManagement>
-   <snapshotRepository>
-      <id>nexus-snapshots</id>
-      <url>https://osca-wbench.psst.t-online.corp/nexus/content/repositories/snapshots/url>
-   </snapshotRepository>
-  </distributionManagement>
-  
+
+  <dependencies>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>3.8.1</version>
+      <scope>test</scope>
+    </dependency>
+  </dependencies>
 </project>
