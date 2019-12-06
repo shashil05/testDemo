@@ -43,18 +43,20 @@
 </build>
   
 <distributionManagement>
+  
+  <repository>
+      <id>depolyment</id>
+      <name>release</name>
+      <url>https://osca-wbench.psst.t-online.corp/nexus/content/repositories/releases/</url>
+   </repository>
+  
+  
    <snapshotRepository>
       <id>depolyment</id>
       <name>Snapshot repo</name>
       <url>https://osca-wbench.psst.t-online.corp/nexus/content/repositories/snapshots/</url>
    </snapshotRepository>
-  
-  
-  <Release>
-      <id>depolyment</id>
-      <name>release</name>
-      <url>https://osca-wbench.psst.t-online.corp/nexus/content/repositories/releases/</url>
-   </Release>
+
 </distributionManagement>
   
   
