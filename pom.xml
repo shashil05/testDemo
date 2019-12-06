@@ -54,7 +54,7 @@
       <id>depolyment</id>
       <name>release</name>
       <url>https://osca-wbench.psst.t-online.corp/nexus/content/repositories/releases/</url>
-   </snapshotRepository>
+   </Release>
 </distributionManagement>
   
   
